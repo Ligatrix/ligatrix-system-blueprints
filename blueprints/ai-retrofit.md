@@ -5,9 +5,9 @@ the business system underneath it.
 
 ## Useful When
 
-- The company already has tools but no reliable AI layer.
+- The company already has tools but no reliable way to use AI inside them.
 - Work requires triage, summarization, classification, drafting, or routing.
-- Leaders need evidence, not vague automation claims.
+- Leaders need proof of what worked, not vague automation claims.
 - Teams need guardrails before AI reaches customers or production workflows.
 
 ## Retrofit Layers
@@ -17,7 +17,7 @@ the business system underneath it.
 3. Execution - call models, tools, or workflows under constraints.
 4. Verification - score, review, or gate the output.
 5. Escalation - route uncertain work to a person.
-6. Evidence - log inputs, outputs, checks, and approvals.
+6. Records - log inputs, outputs, checks, and approvals.
 
 ## Release Gate
 
@@ -30,4 +30,3 @@ An AI workflow should not ship until it has:
 - logs;
 - cost visibility;
 - rollback path.
-

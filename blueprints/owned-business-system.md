@@ -1,23 +1,23 @@
-# Owned Business System Blueprint
+# Internal Workflow System Blueprint
 
-An owned business system is a custom software layer that gives a company one
-reliable place to operate a workflow.
+An internal workflow system is a custom software layer that gives a company one
+reliable place to run a real piece of work.
 
 ## Useful When
 
 - Work is spread across spreadsheets, chat, inboxes, and SaaS tools.
 - A team needs a single view of status and next action.
 - Existing tools do not match the business process.
-- The company wants to own its workflow logic instead of renting it forever.
+- The company wants clear control over its workflow logic.
 
 ## Core Components
 
 - Workspace: the place users work from.
-- Source-of-truth map: where each important fact comes from.
+- Work map: where each important fact comes from.
 - Role model: who can see, change, approve, or export.
 - Workflow engine: the sequence of states and actions.
-- Evidence trail: records of changes, approvals, and outputs.
-- Handoff pack: operating notes, checks, and rollback path.
+- Activity trail: records of changes, approvals, and outputs.
+- Handoff note: operating notes, checks, and rollback path.
 
 ## Acceptance Questions
 
@@ -26,4 +26,3 @@ reliable place to operate a workflow.
 - Are permissions explicit?
 - Are empty, loading, error, and success states handled?
 - Can another operator understand what changed after delivery?
-

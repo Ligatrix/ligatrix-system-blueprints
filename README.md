@@ -1,24 +1,23 @@
 # Ligatrix System Blueprints
 
-Reference patterns for owned business systems.
+Reference patterns for internal tools and workflow systems.
 
 These blueprints are not client implementations. They are public patterns for
-thinking about durable software systems: portals, operational dashboards,
-automation layers, AI-assisted workflows, and internal control rooms.
+thinking about practical software: portals, operations dashboards, workflow
+automation, integrations, and AI-assisted steps where they are useful.
 
 ## Blueprint Types
 
-- [Owned business system](blueprints/owned-business-system.md)
+- [Internal workflow system](blueprints/owned-business-system.md)
 - [AI retrofit system](blueprints/ai-retrofit.md)
 
 ## Design Bias
 
 Ligatrix systems should be:
 
-- owned by the client;
+- controlled by the client;
 - easy to inspect;
 - connected to real workflows;
 - explicit about permissions and data;
 - built around verification and handoff;
 - practical before they are flashy.
-
